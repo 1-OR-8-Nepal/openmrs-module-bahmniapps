@@ -14,9 +14,9 @@
 		body {
 			font-family: OpenSans, Arial, sans-serif;
 			position: relative;
-			background: #f8f8f8;
 			overflow: hidden;
 			padding-bottom: 40px;
+			background: linear-gradient(transparent, #44A6CC);
 		}
 
 		a {
@@ -28,7 +28,7 @@
 			margin: 20px auto 0;
 			padding: 0 15px 20px;
 			overflow: hidden;
-			background: #f8f8f8;
+			background: transparent;
 			z-index: 2;
 		}
 
@@ -47,8 +47,8 @@
 			margin: 10px 15px;
 			background: #fff;
 			padding: 5px;
-			border-radius: 11px;
-			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+			border-radius: 30px;
+			box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.24);
 			transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 			z-index: 2;
 			vertical-align: top;
@@ -65,19 +65,17 @@
 		}
 
 		.launch img {
-			width: 100px;
-			height: 100px;
+			width: 70px;
 			display: block;
-			margin: 15px auto;
+			margin: 40px auto 30px;
 		}
 
 		.launch span {
 			min-height: 55px;
 			display: inline-block;
-			color: #f4834d;
+			color: #000;
 			font-weight: bold;
 			font-size: 18px;
-			text-transform: uppercase;
 		}
 
 		.warning-message {
@@ -85,7 +83,7 @@
 			margin: 0 auto;
 			color: #ffac2e;
 			width: 50%;
-			background: #f8f8f8;
+			background: transparent;
 			padding-top: 10px;
 		}
 
@@ -104,8 +102,8 @@
 
 		.header_text {
 			text-align: center;
-			margin: 35px auto 25px;
-			color: #646464;
+			margin: 45px auto 25px;
+			color: #002757;
 			font-size: 24px;
 			width: 100%;
 		}
@@ -115,7 +113,7 @@
 			width: 100%;
 			bottom: 7px;
 			text-align: center;
-			background: #f8f8f8;
+			background: transparent;
 			padding-bottom: 5px;
 			font-size: 12px;
 			z-index: -1;
@@ -135,7 +133,7 @@
 		.clint-logo-wrapper {
 			display: block;
 			text-align: center;
-			padding-top: 10px;
+			padding-top: 100px;
 		}
 
 		.clint-logo-wrapper img {
@@ -165,7 +163,7 @@
 		.sections {
 			min-width: 200px;
 			text-align: center;
-			margin: 10px auto;
+			margin: 50px auto;
 		}
 	</style>
 
@@ -312,13 +310,13 @@
 <body onload="init()">
 	<div class="clint-logo-wrapper">
 		<img class="client_logo" src="/bahmni/images/bahmniLogoFull.png" />
-		<span class="title_text"> Helios Hospital </span>
+		<span class="title_text"></span>
 	</div>
 	<div class="header_text">
-		<b>WELCOME TO<br />HELIOS HOSPITAL SERVICE</b>
+		<b>Bringing The Higest Standard<br />of Medical Care</b>
 	</div>
 	<div class="container">
-		<h4>GET STARTED</h4>
+		<h4></h4>
 		<div class="sections" />
 	</div>
 	<div class="warning-message">
@@ -331,7 +329,7 @@
 	</div>
 	<div class="power-by">
 		<a class="helper_url" href="1or8.com.np">
-		<img src="/bahmni/images/bahmniLogoFull.png" alt="1 or 8 Pvt. Ltd." />
+			<img src="/bahmni/images/1or8.png" alt="1 or 8 Pvt. Ltd." />
 		</a>
 	</div>
 </body>
